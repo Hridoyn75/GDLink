@@ -6,6 +6,32 @@ a {
   text-decoration: none;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #190f2d #1a2228;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #1a2228;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #add8e6;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
 h1 {
   font-size: 36px;
   text-align: center;
