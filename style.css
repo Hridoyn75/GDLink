@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 
-/* ===== Scrollbar CSS ===== */
+ /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
     scrollbar-width: auto;
@@ -19,16 +19,13 @@ a {
   }
 
   *::-webkit-scrollbar-track {
-    background: #1a2228;
+    background: #add8e6;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #add8e6;
+    background-color: #45a049;
     border-radius: 10px;
   }
-
-
-
 
 
 
